@@ -1,0 +1,44 @@
+.left-content{
+    position: absolute;
+    border: 1px solid gray;
+    padding: 3px;
+    top: 0;
+    left: 0;
+    width: 200px; 
+
+}
+.mid-content{
+    margin-left: 205px;
+    margin-right:100px;
+}
+.right-content{
+    position: absolute;
+    width: 100px;
+    padding:5px;
+    border: 1px solid gray;
+    right:1px;
+    top: 0;
+}
+.menu-left li{
+    list-style: none;
+    margin-left: -20px;
+    margin-bottom: 10px;
+    background-color: rgb(187, 185, 185);
+}
+.menu-left{
+    border: 1px solid;
+}
+.news{
+    background-color: rgb(192, 188, 188);
+    border: 1px solid;
+    margin-top: 10px;
+}
+.link li{
+    margin-left:0px;
+    list-style: none;
+
+}
+img{
+    width: 40%;
+    margin-left: 80px;
+}
