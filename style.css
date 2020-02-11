@@ -22,7 +22,9 @@
 .menu-left li{
     list-style: none;
     margin-left: -20px;
+    border-left: 6px solid blue;
     margin-bottom: 10px;
+    padding: 5px;
     background-color: rgb(187, 185, 185);
 }
 .menu-left{
@@ -41,4 +43,8 @@
 img{
     width: 40%;
     margin-left: 80px;
+}
+a{
+    text-decoration: none;
+
 }
