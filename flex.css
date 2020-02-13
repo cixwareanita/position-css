@@ -1,0 +1,106 @@
+.screen{
+    background-image: url(https://picsum.photos/1500/700);
+    max-height: 85vh;
+}
+.top-content{
+    background-color: rgb(0, 51, 102,0.6);
+    padding: 15px;
+    min-height: 50vh;
+
+}
+.baker h3{
+    color: #ffffff;
+}
+.baker{
+    display: flex;
+    margin-top: -35px;
+    justify-content:flex-start;
+}
+.ker{
+    color: #ffcc00;
+}
+.menu{
+    display: flex;
+    justify-content: flex-end;
+}
+.table{
+    display: table;
+    font-size: 12px;
+    
+}
+.row{
+    display: table-row;
+}
+.col{
+    display: table-cell;
+    padding: 6px;
+
+}
+a{
+    text-decoration: none;
+    color: #ffffff; 
+}
+.content-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text{
+    text-align: center;
+    color: #ffffff;
+}
+.button button{ 
+    border-radius: 15px;
+    color: #ffffff;
+    border:1px solid #ffcc00;
+    height:25px;
+    display: inline;
+    font-size: 10px;
+    background-color:rgb(255, 255, 255 , 0)	
+}
+.download button{
+    background-color:#ffcc00 ;
+
+}
+.mid-content{
+    display: flex;
+    margin-top: 15px;
+    justify-content: space-around;
+}
+.block{
+    text-align: center;
+}
+.block h3{
+    color: grey;
+}
+.block p{
+    color: rgb(175, 174, 174);
+}
+
+.down-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(218, 214, 214);
+    text-align: center;
+}
+h2{
+    color: grey;
+}
+.text-down p{
+    color: rgb(175, 174, 174);
+}
+.last-content{
+    display: flex;
+    background-color: rgb(218, 214, 214);
+    justify-content: space-around;
+}
+.spn{
+    display: inline;
+    font-size: 55px;
+}
+.text-block p{
+    color: rgb(175, 174, 174);
+
+
+}

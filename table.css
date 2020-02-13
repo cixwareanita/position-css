@@ -1,0 +1,30 @@
+.box{
+    display:flex ;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.table{
+    display: table;
+    border: 3px solid #000000;
+    width: 400px;
+    height: 400px;
+    text-align: center;
+}
+.rtable{
+    border: 2px solid gray;
+    display: table-row;
+
+}
+.ctable{
+    display: table-cell;
+    padding-top: 7px;
+    border: 2px solid gray;
+
+
+}
+.htable{
+    display: table-row;
+    font-weight: bold;
+}
