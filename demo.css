@@ -1,0 +1,361 @@
+body{
+    margin: 0px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0px;
+    margin-bottom: 40px;
+    font-size: 13px;
+}
+@media(max-width:700px){
+    .menu-bar {
+       flex-direction: column;
+       
+    }
+    a{
+       display: flex;
+       font-size: 12px;
+       font-weight: bold;
+       padding: 4px;
+       flex-direction: column;
+    }
+    .blocks{
+        display: flex;
+        flex-direction: column;
+    }   
+     /* .first-a{
+        display: flex;
+        flex-direction: column;
+        text-align: center; 
+        
+    }  */
+    .blog-block{
+        margin-top: 15px;
+    }   
+    .team-profile{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    } 
+   
+}
+.top-bar{
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+}
+.top-bar img{
+    height: 50px;
+    width: 50px;
+}
+.menu-bar{
+    padding: 10px;
+    padding-left: 10px;
+}
+button{
+    background-color: #ff4d88;
+    border-radius: 20px;
+    height: 30px;
+    width: 90px;
+    font-size: 12px;
+    color: white;
+    border: none;
+
+}
+a{
+    text-decoration: none;
+    color: #000;
+    padding-left: 18px;
+}
+.section-top{
+    background: url(img/cafe.jpg) no-repeat;
+    background-position: center;
+    color: white;
+    background-size:cover ;
+
+}
+.stf{    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-top-first{
+    display: flex;
+    width: 450px;
+    padding-top: 15px;
+    text-align: center;
+    
+}
+span{
+    font-size: 8px;
+    padding: 0px;
+}
+.section-top-second{
+    display: flex;
+    padding-top: 35px;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.blocks{
+    display: flex;
+    color: gray;
+    justify-content: flex-end;
+    font-size: 11px;
+    flex-basis: 450px;
+    text-align: center;
+    background-color: white;
+}
+.second-block{
+    background-color: rgba(243, 241, 239, 0.829);
+}
+.block-img{
+    margin-top: 10px;
+}
+h2{
+    text-align: center;
+    padding-top: 25px;
+}
+.first-section{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.first-a{
+    display: flex;
+    flex-basis: 450px;
+}
+.first-a-text{
+    padding-left: 20px;
+}
+.first-a-text h2{
+    text-align: left;
+}
+.first-a-img img{
+    width: 220px;
+}
+.row-block{
+    background-color:rgba(65, 64, 63, 0.8) ;
+    display: flex;
+    font-size: 12px;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+}
+.block-row1{
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+.row1{
+    flex-basis: 200px;
+    margin-right: 30px;
+}
+.block-row2{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+.row2{
+    flex-basis: 200px;
+    margin-right: 30px;
+}
+.large-num{
+    color: gray;
+    font-size:40px;
+    font-weight:bolder;
+}
+.h4{
+    font-size: 18px;    
+}
+.learn-more a{
+    color:#ff4d88 ;
+    margin-left: -20px;
+}
+.topic{
+    font-size: 15px;
+    font-weight: bold;
+}
+.team{
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.team-profile{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.team-block{
+    margin-top: 10px;
+    flex-basis: 150px;
+    margin-right: 10px;
+}
+.team-block p,.blog-text p{
+    color: gray;
+}
+.team-img img{
+    width:150px;
+    height: 150px;
+}
+.background-proud{
+    background: url(https://picsum.photos/1500/700) no-repeat; 
+    background-position: center;
+    display: flex;
+    border-right: 18px solid rgb(204, 203, 201);
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    height: 200px;
+}
+.content-proud{
+    background-color: rgb(204, 203, 201);
+    height: 100px;
+    width:1350px;
+    color: white;
+    text-align: center;
+    padding-bottom: 20px;
+    
+}
+.read-blog{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.read-blocks{
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center;
+}
+.blog-block{
+    flex-basis: 100px;
+    padding-right: 15px;
+    text-align: center;
+}
+.blog-btn{
+    width: 150px;
+    height: 150px;
+    background-image: url(img/coffee3.jfif);
+}
+.blog-btn1{
+    width: 150px;
+    height: 150px;
+    background-image: url(img/coffee2.jfif);
+}
+.blog-btn2{
+    width: 150px;
+    height: 150px;
+    background-image: url(img/coffee1.jfif);
+}
+.blog-btn button ,.blog-btn2 button{
+    margin-top: 10px;
+    margin-left:-50px;
+}
+.blog-btn1 button{
+    margin-top: 10px;
+    width: 60px;
+    margin-left: -70px;
+}
+.our-speed{
+    background: url(https://picsum.photos/1500/700) no-repeat;
+    background-position: center;
+    margin-top: 25px;
+
+}
+.trans{
+    background-color:rgba(65, 64, 63, 0.8) ;
+
+}
+.speed{
+   display: flex;
+   flex-direction: column;
+   flex-basis: 50px;
+   align-items: flex-start;
+   color: white;
+}
+.sa{
+    font-size: 15px;
+    flex-basis: 50px;
+}
+.sb{
+    font-size: 19px;
+    flex-basis: 50px;
+    font-weight: bold;
+}
+.worker{
+    display: flex;
+    justify-content: center;
+}
+.info{
+    flex-basis: 150px;
+    color: rgb(204, 203, 201);
+    padding-right: 15px;
+    font-size: 15px;
+}
+.section-link{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    align-items: center;
+}
+.link-a{
+    font-size: 15px;
+    color: rgb(180, 179, 175);
+}
+.link-b{
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+.cafe-logo img{
+    width: 50px;
+    height: 50px;
+               
+}
+.last-section{
+    display: flex;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.block-one, .block-three, .block-two{
+    flex-basis: 150px;
+    color: gray;
+}
+.table{
+    display: table;
+    width: 200px;
+    margin-right: 50px;
+    text-align: center;
+
+}
+.row{
+    display: table-row;
+
+}
+.col{
+    display: table-cell;
+    margin-right: 10px;
+
+
+}
+.co{
+    display: table-cell;
+    font-size: 14px;
+    text-align: right;
+    font-weight: bold;
+    color: black;
+}
+.block-two{
+    text-align: center;
+}
+input[type=text] {
+    border: none;
+    border-bottom: 1px solid gray;
+    outline: none;
+}
